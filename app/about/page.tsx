@@ -1,24 +1,27 @@
 export default function Page() {
   return (
-    <section className="about-page-container">
-      <div className="about-page-chef-image"></div>
-      <div className="about-page-heading">
-        <h1>A sweet, gluten-free treat for any occasion</h1>
-      </div>
-      <div className="about-page-info">
-        <p>
-          The story of Cupcaked began when our head chef/founder,{" "}
-          <span>Clairine Ng</span>, decided to take a leap of faith and open a
-          cakery in the heart of Singapore. Inspired by her sister who struggled
-          with Celiac disease, Clairine decided to ensure all of our products
-          are gluten-free. As soon as we opened, we knew we were onto something
-          unique.
-        </p>
+    <section className="h-[60rem] flex flex-col 2xl:h-[37.5rem] xl:flex-row">
+      <div className="bg-chef-about-bg bg-no-repeat bg-cover bg-center h-full w-full border-x-8 border-b-8 xl:border-b-0 2xl:w-[120rem]"></div>
+      
+      <div className="flex flex-col xl:flex-col">
+        <div className="bg-Sky_Whisper border-x-8 border-b-8 xl:border-l-0 xl:h-full xl:px-14">
+          <h1 className="text-base font-extrabold p-6 xl:text-5xl xl:leading-normal xl:py-20">A sweet, gluten-free <br /> treat for any occasion</h1>
+        </div>
+        <div className="bg-Pink_Passion border-x-8 border-b-0 xl:border-l-0 xl:h-full xl:px-14">
+          <p className="text-base font-bold p-6 xl:text-xl">
+            The story of Cupcaked began when our head chef/founder,{" "}
+            <span className="font-extrabold">Clairine Ng</span>, decided to take a leap of faith and open a
+            cakery in the heart of Singapore. Inspired by her sister who struggled
+            with Celiac disease, Clairine decided to ensure all of our products
+            are gluten-free. As soon as we opened, we knew we were onto something
+            unique.
+          </p>
 
-        <p>
-          Our gluten-free cupcakes are made with healthy coconut flour, almonds,
-          flax seed, and other ingredients to create the perfect treat for you.
-        </p>
+          <p className="text-base font-bold p-6 xl:text-base">
+            Our gluten-free cupcakes are made with healthy coconut flour, almonds,
+            flax seed, and other ingredients to create the perfect treat for you.
+          </p>
+        </div>
       </div>
     </section>
   );

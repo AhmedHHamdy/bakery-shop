@@ -6,7 +6,7 @@ import { MdOutlineShoppingCart } from "react-icons/md";
 
 export default function Header() {
   return (
-    <header className="bg-Lemon_Zest px-10 py-8 border-8">
+    <header className="bg-Lemon_Zest px-6 py-8 border-8">
       <nav className="sm:hidden flex justify-between">
         <Link className="text-base font-bold" href="/shop">Shop</Link>
         {/* <Link className="text-base " href="/about">About</Link> */}
@@ -23,7 +23,7 @@ export default function Header() {
         
         <Link className={`text-3xl font-bold ${kalam.className}`} href="/">Cupcaked</Link>
 
-        <div className="flex justify-between items-center gap-10">
+        <div className="flex justify-between items-center gap-20">
           <Link className="text-xl" href="/shop"><FaRegUserCircle className="text-3xl font-bold" /></Link>
           <Link className="text-xl" href="/shop"><IoSearch className="text-3xl font-bold" /></Link>
           <Link className="text-xl" href="/shop"><MdOutlineShoppingCart className="text-3xl font-bold" /></Link>

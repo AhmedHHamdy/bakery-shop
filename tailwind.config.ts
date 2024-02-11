@@ -24,7 +24,7 @@ const config: Config = {
         'main-cupcake-seven': "url('../public/cupcake_oreo.jpg')",
         'main-cupcake-eight': "url('../public/Chocolate Cupcake with Mint Buttercream.jpg')",
         'main-cupcake-nine': "url('../public/cupcakes.jpg')",
-        
+        'chef-about-bg': "url('../public/chef.jpg')"
       }
     }
   },
