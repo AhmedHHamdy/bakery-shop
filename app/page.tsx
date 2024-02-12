@@ -1,7 +1,7 @@
 export default function Page() {
   return (
     <>
-      <main className="h-screen grid grid-cols-3 md:grid-cols-6 xl:grid-cols-9 xl:grid-rows-2 xl:h-[41.8rem]">
+      <main className="h-screen grid grid-cols-3 md:grid-cols-6 xl:grid-cols-9 xl:grid-rows-2 xl:h-screen">
        
         <div className="bg-main-cupcake-one bg-cover bg-no-repeat border-x-8 border-b-8 row-start-1 col-span-1 md:col-span-2 xl:col-span-2"></div>
 

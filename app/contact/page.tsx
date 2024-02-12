@@ -1,28 +1,17 @@
+import ContactForm from "../ui/ContactForm";
+
 export default function Page() {
   return (
-    <section className="contact-page-container">
-      <div className="contact-page-form">
-        <h1>Talk to us.</h1>
-        <form action="">
-          <label htmlFor="name">Name</label>
-          <input type="text" name="name" id="name" />
+    <section className="h-screen flex flex-col md:flex-row">
+      <ContactForm />
 
-          <label htmlFor="email">Email Address</label>
-          <input type="text" name="name" id="email" />
-
-          <label htmlFor="message">Message</label>
-          <textarea name="message" id="message" />
-
-          <button>Send</button>
-        </form>
-      </div>
-
-      <div className="contact-page-info">
-        <p>
+      <div className="bg-Pink_Passion border-x-8 border-b-0 flex flex-col gap-10 p-8 h-full items-center justify-center md:w-7/12 md:justify-start">
+        <p className="text-base font-bold md:text-4xl md:mt-14">
           Have questions or feedback? We'd love to hear from you! Feel free to
-          reach out. <br /> <br /> We're here to help and provide you with the
-          information you need.
+          reach out.
         </p>
+
+        <p className="text-base font-bold md:text-4xl md:mt-14"> We're here to help and provide you with the information you need.</p>
       </div>
     </section>
   );
