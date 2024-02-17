@@ -6,7 +6,7 @@ import { MdOutlineShoppingCart } from "react-icons/md";
 
 export default function Header() {
   return (
-    <header className="bg-Lemon_Zest px-6 py-8 border-8">
+    <header className="bg-Lemon_Zest px-6 py-8 border-8 fixed w-full z-10">
       <nav className="sm:hidden flex justify-between">
         <Link className="text-base font-bold" href="/shop">Shop</Link>
         {/* <Link className="text-base " href="/about">About</Link> */}

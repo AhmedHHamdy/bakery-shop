@@ -2,7 +2,7 @@ import ContactForm from "../ui/ContactForm";
 
 export default function Page() {
   return (
-    <section className="h-screen flex flex-col md:flex-row">
+    <section className="h-screen flex flex-col md:flex-row pt-20"> {/* Add pt-20 for padding */}
       <ContactForm />
 
       <div className="bg-Pink_Passion border-x-8 border-b-0 flex flex-col gap-10 p-8 h-full items-center justify-center md:w-7/12 md:justify-start">
