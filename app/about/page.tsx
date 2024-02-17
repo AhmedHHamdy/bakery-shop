@@ -1,4 +1,13 @@
-export default function Page() {
+import { getSession, login } from "@/lib"
+import { redirect } from "next/navigation";
+
+export default async function Page() {
+
+  // const session = await getSession()
+
+  // if (!session) {
+  //   redirect('/login')
+  // }
   return (
     <section className="h-[60rem] xl:h-screen flex flex-col xl:flex-row pt-20">
       <div className="bg-chef-about-bg bg-no-repeat bg-cover bg-center h-full w-full border-x-8 border-b-8 xl:border-b-0 2xl:w-[120rem]"></div>

@@ -1,19 +1,26 @@
+import { redirect } from "next/navigation";
+import { getSession, login } from "@/lib"
 import Link from "next/link";
+
 
 export default function Page() {
   return (
-    <section className="bg-Sky_Whisper flex items-center justify-center h-screen">
-      <form className="h-full flex flex-col justify-center items-center">
-        <h1>Welcome To Cupcaked</h1>
+    <section className="bg-Pink_Passion flex items-center justify-center h-screen pt-20 border-8 border-b-0">
+      <form className="flex flex-col justify-center items-stretch border-8 p-10 bg-Sky_Whisper" action={async (formData) => {
+        "use server"
+        await login(formData)
+        redirect("/about")
+      }}>
+        <h1 className="text-xl font-bold mb-2">Welcome back To Cupcaked</h1>
 
-        <div>
+        <div className="flex flex-col gap-1 mt-2">
           <label htmlFor="email" className="text-base font-semibold">
             Email
           </label>
           <input type="text" name="name" id="email" className="border-4" />
         </div>
 
-        <div>
+        <div className="flex flex-col gap-1 mt-4">
           <label htmlFor="password" className="text-base font-semibold">
             Password
           </label>
@@ -25,10 +32,10 @@ export default function Page() {
           />
         </div>
 
-        <Link href="/signup">Don't have an account? Sign up</Link>
+        <Link className="text-base my-2" href="/signup">Don't have an account? <span className="font-bold underline">Sign up</span></Link>
 
-        <button className="button-style w-full" style={{ alignSelf: "center" }}>
-          Send
+        <button className="button-style w-full" style={{ alignSelf: "center", padding: "0.4rem" }}>
+          Login in
         </button>
       </form>
     </section>

@@ -16,7 +16,7 @@ export default function Header() {
 
       <nav className="hidden sm:flex justify-between">
         <div className="flex justify-between items-center gap-5">
-          <Link className="text-xl font-bold hover:underline" href="/shop">Shop</Link>
+          <Link className="text-xl font-bold hover:underline" href="/login">Shop</Link>
           <Link className="text-xl font-bold hover:underline" href="/about">About</Link>
           <Link className="text-xl font-bold hover:underline" href="/contact">Contact Us</Link>
         </div>
@@ -24,7 +24,7 @@ export default function Header() {
         <Link className={`text-3xl font-bold ${kalam.className}`} href="/">Cupcaked</Link>
 
         <div className="flex justify-between items-center gap-20">
-          <Link className="text-xl" href="/shop"><FaRegUserCircle className="text-3xl font-bold" /></Link>
+          <Link className="text-xl" href="/login"><FaRegUserCircle className="text-3xl font-bold" /></Link>
           <Link className="text-xl" href="/shop"><IoSearch className="text-3xl font-bold" /></Link>
           <Link className="text-xl" href="/shop"><MdOutlineShoppingCart className="text-3xl font-bold" /></Link>
         </div>
