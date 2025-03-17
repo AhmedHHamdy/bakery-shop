@@ -20,39 +20,39 @@ export async function decrypt(input: string): Promise<any> {
   return payload;
 }
 
-export async function login(formData: FormData) {
-  // Verify credentials && get the user
-  for (const key of formData.values()) {
-    console.log(key);
-  }
-  const formDatadsf = {
-    email: 'example@example.com',
-    password: 'password123'
-  };
+// export async function login(formData: FormData) {
+//   // Verify credentials && get the user
+//   for (const key of formData.values()) {
+//     console.log(key);
+//   }
+//   // const formData = {
+//   //   email: 'example@example.com',
+//   //   password: 'password123'
+//   // };
 
 
   
-  // fetch('http://localhost:4000/register', {
-  //   method: 'POST',
-  //   headers: {
-  //     'Content-Type': 'application/json'
-  //   },
-  //   body: JSON.stringify(formData)
-  // })
-  // .then(response => response.json())
-  // .then(data => console.log(data))
-  // .catch(error => console.error('Error:', error));
+//   // fetch('http://localhost:4000/register', {
+//   //   method: 'POST',
+//   //   headers: {
+//   //     'Content-Type': 'application/json'
+//   //   },
+//   //   body: JSON.stringify(formData)
+//   // })
+//   // .then(response => response.json())
+//   // .then(data => console.log(data))
+//   // .catch(error => console.error('Error:', error));
   
 
-  // const user = { email: formData.get("email"), name: "John" };
+//   // const user = { email: formData.get("email"), name: "John" };
 
-  // Create the session
-  // const expires = new Date(Date.now() + 10 * 30000);
-  // const session = await encrypt({ user, expires });
+//   // Create the session
+//   // const expires = new Date(Date.now() + 10 * 30000);
+//   // const session = await encrypt({ user, expires });
 
-  // // Save the session in a cookie
-  // cookies().set("session", session, { expires, httpOnly: true });
-}
+//   // // Save the session in a cookie
+//   // cookies().set("session", session, { expires, httpOnly: true });
+// }
 
 export async function logout() {
   // Destroy the session

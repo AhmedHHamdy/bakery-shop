@@ -16,7 +16,7 @@ export default function Header() {
 
       <nav className="hidden sm:flex justify-between">
         <div className="flex justify-between items-center gap-5">
-          <Link className="text-xl font-bold hover:underline" href="/login">Shop</Link>
+          <Link className="text-xl font-bold hover:underline" href="/shop">Shop</Link>
           <Link className="text-xl font-bold hover:underline" href="/about">About</Link>
           <Link className="text-xl font-bold hover:underline" href="/contact">Contact Us</Link>
         </div>

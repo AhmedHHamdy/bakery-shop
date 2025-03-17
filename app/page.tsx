@@ -9,7 +9,7 @@ export default function Page() {
           <h1 className="text-3xl font-bold uppercase xl:text-5xl">
             100% <br /> <span>Gluten free</span> <br /> Goodness
           </h1>
-          <a className="button-style" href="">Order Now</a>
+          <a className="button-style" href="/shop">Order Now</a>
         </div>
 
         <div className="hidden sm:hidden md:block md:bg-main-cupcake-three md:bg-cover md:bg-center md:bg-no-repeat md:col-span-2 md:border-b-8 md:border-r-8 xl:col-span-3 xl:row-span-2"></div>
@@ -59,7 +59,7 @@ export default function Page() {
         </div>
 
         <div className="bg-Pink_Passion border-x-8 border-b-0 p-10 xl:col-span-2 xl:row-start-2">
-          <a className="button-style " href="">Go To Shop</a>
+          <a className="button-style " href="/shop">Go To Shop</a>
         </div>
 
 

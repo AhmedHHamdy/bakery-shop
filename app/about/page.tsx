@@ -1,5 +1,5 @@
-import { getSession, login } from "@/lib"
-import { redirect } from "next/navigation";
+// import { getSession } from "@/lib"
+// import { redirect } from "next/navigation";
 
 export default async function Page() {
 

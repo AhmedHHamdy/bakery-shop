@@ -1,16 +1,12 @@
 import { redirect } from "next/navigation";
-import { getSession, login } from "@/lib"
+// import { getSession, login } from "@/lib"
 import Link from "next/link";
 
 
 export default function Page() {
   return (
     <section className="bg-Pink_Passion flex items-center justify-center h-screen pt-20 border-8 border-b-0">
-      <form className="flex flex-col justify-center items-stretch border-8 p-10 bg-Sky_Whisper" action={async (formData) => {
-        "use server"
-        await login(formData)
-        redirect("/about")
-      }}>
+      <form className="flex flex-col justify-center items-stretch border-8 p-10 bg-Sky_Whisper">
         <h1 className="text-xl font-bold mb-2">Welcome back To Cupcaked</h1>
 
         <div className="flex flex-col gap-1 mt-2">

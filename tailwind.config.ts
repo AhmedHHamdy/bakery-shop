@@ -19,10 +19,10 @@ const config: Config = {
         'main-cupcake-one': "url('../public/cupcakes_high_angle.jpg')",
         'main-cupcake-two': "url('../public/cupcake.jpg')",
         'main-cupcake-three': "url('../public/cupcake_with_icing.jpg')",
-        'main-cupcake-four': "url('../public/cupcake-four.jpg')",
-        'main-cupcake-six': "url('../public/cupcake-sprickle.jpg')",
+        'main-cupcake-four': "url('../public/cupcake_four.jpg')",
+        'main-cupcake-six': "url('../public/cupcake_sprickle.jpg')",
         'main-cupcake-seven': "url('../public/cupcake_oreo.jpg')",
-        'main-cupcake-eight': "url('../public/Chocolate Cupcake with Mint Buttercream.jpg')",
+        'main-cupcake-eight': "url('../public/Chocolate_Cupcake_with_Mint_Buttercream.jpg')",
         'main-cupcake-nine': "url('../public/cupcakes.jpg')",
         'chef-about-bg': "url('../public/chef.jpg')"
       }
