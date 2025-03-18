@@ -15,6 +15,7 @@ export default function Footer() {
           <a className="font-xl font-bold hover:underline" href="">FAQ</a>
           <a className="font-xl font-bold hover:underline" href="">Terms & Conditions</a>
           <a className="font-xl font-bold hover:underline" href="">Customer Service</a>
+          <a className="font-xl font-bold hover:underline" href="https://dribbble.com/shots/19601688-Cupcaked-Neobrutalism-Web-Design-for-a-Bakery">Designed By Gabriella Gading</a>
         </div>
         <small className="font-xl font-bold hover:underline">{`© ${new Date().getFullYear()} Cupcaked. All rights reserved`}</small>
       </nav>
