@@ -11,7 +11,7 @@ export default function Page() {
           reach out.
         </p>
 
-        <p className="text-base font-bold md:text-4xl md:mt-14"> We're here to help and provide you with the information you need.</p>
+        <p className="text-base font-bold md:text-4xl md:mt-14"> We&apos;re here to help and provide you with the information you need.</p>
       </div>
     </section>
   );
