@@ -28,7 +28,7 @@ export default function Page() {
           />
         </div>
 
-        <Link className="text-base my-2" href="/signup">Don't have an account? <span className="font-bold underline">Sign up</span></Link>
+        <Link className="text-base my-2" href="/signup">Don&apos;t have an account? <span className="font-bold underline">Sign up</span></Link>
 
         <button className="button-style w-full" style={{ alignSelf: "center", padding: "0.4rem" }}>
           Login in
