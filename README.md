@@ -33,26 +33,6 @@ The design is heavily inspired by [Gabriella Gading](https://dribbble.com/shots/
 
 ---
 
-## Folder Structure 📂
-
-Here’s how the project is organized:
-
-```
-bakery-shop/
-├── public/            # Images, icons, etc.
-├── src/
-│   ├── components/    # Reusable UI bits
-│   ├── pages/         # All the pages (Home, Login, Register, Contact, Shop)
-│   ├── styles/        # CSS files
-│   ├── data/          # Fake bakery item data
-│   └── utils/         # Helper functions (like filtering)
-├── next.config.js     # Next.js settings
-├── tsconfig.json      # TypeScript settings
-└── README.md          # This file!
-```
-
----
-
 ## How to Run It 🖥️
 
 Want to check it out locally? Here’s how:
