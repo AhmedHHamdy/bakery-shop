@@ -53,7 +53,7 @@ export default function Page() {
           <h2 className="font-bold">
             Discover the magic of our gluten-free cupcakes! Our creations are a
             delightful fusion of flavors and artistry, sure to please any
-            palate. From zesty lemon to velvety red velvet, there's a cupcake
+            palate. From zesty lemon to velvety red velvet, there&apos;s a cupcake
             for every taste preference.
           </h2>
         </div>
