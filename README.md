@@ -2,7 +2,7 @@ Sure! Here's a more casual and human-like version of the README:
 
 ---
 
-# Bakery Shop Website 🍰
+# Bakery Shop Website 🍰 
 
 This is a frontend project I built using **Next.js** and **TypeScript**. It’s all about the design no backend yet, just a pretty and functional website. I was super inspired by [Gabriella Gading](https://dribbble.com/shots/19601688-Cupcaked-Neobrutalism-Web-Design-for-a-Bakery)'s design style.
 
